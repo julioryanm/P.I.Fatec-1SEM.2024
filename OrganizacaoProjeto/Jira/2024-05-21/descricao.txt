@@ -1,0 +1,21 @@
+1. Foi criado um grupo no jira e passado para os integrantes acessarem.
+
+2. Foi criado épicos para separar o que precisa ser desenvolvido, sendo eles:
+    •Documentação: Casos de uso  (1)
+    •Documentação: Diagrama de atividades (2)
+    •Documentação: Diagrama de contexto (3)
+    •Documentação: Requisitos funcionais (4)
+    •Documentação: Requisitos não Funcionais (5)
+    •Design digital: Moodboard (6)
+    •Design digital: Identidade Visual (7)
+    •Desenvolvimento Web: Landing Page (12)
+
+3. Foi feita 5 etapas para a conclusão de cada tarefa que será/foi criada, na qual, essas etapas são representadas pelo seguinte fluxo:
+    "NÃO INICIADO" ➞ "EM PROGRESSO" ➞ "COMMITADO (GITHUB)" ➞ "PULL REQUEST (GITHUB)" ➞ "CONCLUÍDO"
+
+4. Foi criado no painel tarefas iniciais, sendo elas:
+    •Documentação de casos de uso: Professor
+    •Documentação de casos de uso: Usuário (logado)
+    •Documentação de casos de uso: Convidado (Guest)
+    •Design digital - identidade visual: Simplificar parte superior da logotipo (criar vários protótipos)
+    •Design digital - identidade visual: Estudar cores que serão utilizadas para a logotipo
