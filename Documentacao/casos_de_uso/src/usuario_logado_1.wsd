@@ -1,0 +1,15 @@
+@startuml Logged User Actions 1
+scale 1
+left to right direction
+:Usuário (logado): as User
+User --> (Acessar aba "Comunidade")
+User --> (Adicionar "amigos")
+User --> (Acessar perfil)
+User --> (Acessar loja)
+User --> (Comprar itens na loja)
+User --> (Criar jogos "solo" com perguntas predefinidas)
+User --> (Visualizar informações de cadernos)
+User --> (Responder perguntas)
+User --> (Visualizar "energia" restante)
+User --> (Comprar "energia" na loja)
+@enduml
