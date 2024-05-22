@@ -1,0 +1,21 @@
+@startuml login
+start
+if (Login via terceiros?) then (sim)
+    :Login via terceiros;
+    :Redireciona para terceiros;
+    :Terceiros valida;
+    while (Terceiros valida?) is (não)
+    :Redireciona para login;
+    #pink:Eleva um erro de usuario não cadastrado;
+    endwhile (sim)
+else (não)
+    :Login via email e senha;
+    :Informa email e senha;
+    :Valida email e senha;
+    while (Email e senha válidos?) is (não)
+    :Redireciona para login;
+    #pink:Eleva um erro de usuario não cadastrado ou senha incorreta;
+    endwhile (sim)
+endif
+:Redireciona para menu principal;
+@enduml
