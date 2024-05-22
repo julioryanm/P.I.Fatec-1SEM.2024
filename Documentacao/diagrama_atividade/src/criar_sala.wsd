@@ -1,0 +1,39 @@
+@startuml criar_sala
+start
+:Clicar em "Criar Sala";
+:Abre a tela de criação de sala;
+:Inserir nome da sala;
+:Inserir descrição da sala;
+:Selecionar categoria das perguntas;
+switch (Selecionar perguntas)
+case (Criar novo caderno)
+    :Selecionar criar novo caderno;
+    :Inserir nome do caderno;
+    :Adicionar perguntas;
+    :Salvar caderno;
+    :Selecionar caderno criado;
+case (Selecionar caderno existente)
+    :Listar cadernos existentes;
+    :Seleciona um caderno;
+endswitch
+:Selecionar tempo de resposta;
+:Selecionar quantidade de perguntas;
+:Selecionar quantidade de jogadores;
+switch (Tipo de sala)
+case (Privada)
+    :Selecionar senha;
+    :Gera código da sala;
+case (Pública)
+    :Gera código da sala;
+endswitch
+if (usuário é do tipo Professor?) then (sim)
+    :Entra como observador;
+else (não)
+    :Entra como jogador;
+endif
+:Clicar em "Criar Sala";
+:Cria a sala;
+:Redireciona para a tela da sala criada;
+stop
+
+@enduml
