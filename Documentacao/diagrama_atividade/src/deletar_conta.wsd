@@ -1,0 +1,18 @@
+@startuml deletar conta
+start
+:Acessar a tela de perfil do usuário;
+:Selecionar a opção de deletar conta;
+:Abre Pop-up;
+if (Confirmar a exclusão da conta?) then (Sim)
+:Solicita dados do usuário para confirmar exclusão;
+:Usuário confirma os dados;
+:Usuário confirma a exclusão da conta;
+:Envia E-mail com link temporário para confirmação da exclusão da conta;
+:Desabilita a conta por 90 dias;
+:Após 90 dias, exclui definitivamente a conta;
+end
+else (Não)
+:Cancelar exclusão da conta;
+:Fecha Pop-up;
+end
+@enduml
