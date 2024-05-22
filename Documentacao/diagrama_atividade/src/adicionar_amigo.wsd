@@ -1,0 +1,16 @@
+@startuml adicionar_amigo
+start
+:Abrir lista de amigos;
+:Clicar em "Adicionar amigo";
+:Abre a tela de busca;
+:Digitar email, código de usuário ou apelido do amigo;
+:Selecionar o amigo desejado;
+:Enviar solicitação de amizade;
+:Amigo recebe a solicitação;
+if (Amigo aceita a solicitação?) then (Sim)
+:Amigo adicionado a lista de amigos;
+else (Não)
+:Amigo não aceitou a solicitação;
+endif
+stop
+@enduml
