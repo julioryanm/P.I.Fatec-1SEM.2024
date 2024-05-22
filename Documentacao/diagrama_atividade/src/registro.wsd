@@ -1,0 +1,29 @@
+@startuml registro
+start
+if (Registrar com terceiros?) then (sim)
+    :Clicar em "Registrar com terceiros";
+    :Escolher a rede social desejada;
+    :Redirecionar para a página de login da rede social;
+    :Redireciona para a tela de cadastro;
+    :Autopreencher formulário de cadastro com informações obtidas da rede social;
+else (não)
+    :Clicar em "Registrar com e-mail";
+    :Redireciona para tela de cadastro;
+endif
+if (é Professor?) then (sim)
+    :Clicar em "Professor";
+    :Preencher o formulário com informações de professor;
+    :Enviar arquivos comprobatórios;
+else (não)
+    :Clicar em "Aluno";
+    :Preencher o formulário com informações de aluno;
+endif
+while (Formulário preenchido corretamente?) is (não)
+    :Clicar em "Registrar-se";
+    #pink:Redirecionar para o primeiro item incorreto encontrado do formulário;
+endwhile (sim)
+#paleGreen:Clicar em "Registrar-se";
+:Envia E-Mail de confirmação;
+:Redirecionar para a página de login;
+stop
+@enduml
