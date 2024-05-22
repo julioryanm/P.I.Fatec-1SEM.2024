@@ -1,0 +1,13 @@
+@startuml logout
+start
+:Clicar no botão de logout;
+:Pop-up de confirmação;
+if (Deseja realmente sair?) then (Sim)
+    :Encerra sessão;
+    :Redirecionar para a tela de login;
+    end
+else (Não)
+    :Fechar pop-up;
+    :Permanecer na tela;
+    end
+@enduml
