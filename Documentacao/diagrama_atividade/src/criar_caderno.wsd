@@ -9,6 +9,7 @@ start
 
 :Acessar o inicio;
 :Selecionar o ícone caderno;
+:Sistema abre o caderno;
 :Inserir nome do caderno;
 :Adicionar perguntas;
 :Salvar caderno;
@@ -21,6 +22,7 @@ else (Não)
     :Corrigir o caderno;
     :Revisar caderno novamente;
 endif
+:Sistema salva o caderno;
 
 stop
 @enduml
