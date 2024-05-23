@@ -1,7 +1,7 @@
 @startuml
 start
 
-:Ir ao inicio;
+:Acessar o inicio;
 :Clicar no Ìcone "Caderno";
 :Sistema carrega o caderno;
 :Selecionar edição do caderno;
