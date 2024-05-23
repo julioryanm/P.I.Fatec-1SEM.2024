@@ -1,0 +1,26 @@
+@startuml
+!define RECTANGLE class
+!define SQUARE class
+!define FOLDER class
+
+title Diagrama para criar Caderno
+
+start
+
+:Ir ao inicio;
+:Selecionar o ícone caderno;
+:Inserir nome do caderno;
+:Adicionar perguntas;
+:Salvar caderno;
+    
+
+
+if (O nome e as perguntas estão ok?) then (Sim)
+    :Finalizar criação do caderno;
+else (Não)
+    :Corrigir o caderno;
+    :Revisar caderno novamente;
+endif
+
+stop
+@enduml
