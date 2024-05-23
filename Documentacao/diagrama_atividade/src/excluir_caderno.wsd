@@ -1,0 +1,16 @@
+@startuml deletar conta
+start
+:Acessar o Inicio;
+:Selecionar a opção caderno;
+:Abre a opção caderno;
+:Selecionar "excluir caderno";
+if (Confirmar a exclusão do caderno?) then (Sim)
+:Solicita dados do usuário para confirmar exclusão;
+:Usuário confirma os dados;
+:Usuário confirma a exclusão do caderno;
+end
+else (Não)
+:Cancela exclusão do caderno;
+:Fechar o caderno;
+end
+@enduml
