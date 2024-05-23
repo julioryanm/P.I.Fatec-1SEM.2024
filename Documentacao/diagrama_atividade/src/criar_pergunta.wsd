@@ -1,7 +1,7 @@
 @startuml
 :Criação de pergunta;
 start
-:ir ao Inicio;
+:Acessar o Inicio;
 :Clicar no Ícone "caderno";
 :Selecionar criação de perguntas;
 :Selecionar a categoria da pergunta;
