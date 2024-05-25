@@ -1,0 +1,12 @@
+@startuml
+:Clicar no ícone "Engrenagem";
+:Abre as opções;
+:Clicar na opção "Sair da sala";
+if (Deseja realmente sair da sala?) then (Sim)
+:Usúario sai da sala;
+:Então o usúario é redireciondo para o menu principal;
+stop
+else (Não)
+:Usúario permanece na sala;
+end
+@enduml
