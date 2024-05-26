@@ -1,7 +1,11 @@
-@startuml caderno
+@startuml criar_questões
 start
 :Clicar na aba caderno;
 :Clicar no botão criar questão;
+switch (Questão é conhecimento geral ou específico)
+case (específico)
+	:Selecionar qual tema;
+endswitch
 :Selecionar caixa de texto;
 :Escrever questão;
 :Escrever respostas erradas e certa;

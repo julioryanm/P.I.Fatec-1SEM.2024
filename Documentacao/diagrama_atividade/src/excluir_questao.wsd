@@ -1,4 +1,4 @@
-@startuml logout
+@startuml excluir
 start
 :Clicar na aba caderno;
 :Clicar na questão;
