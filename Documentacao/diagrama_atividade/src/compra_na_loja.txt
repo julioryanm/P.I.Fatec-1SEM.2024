@@ -1,0 +1,29 @@
+compra_na_loja
+
+@startuml
+start
+:Clicar no item desejado;
+:Abre o item em destaque;
+:Clicar em compra do item;
+switch (Comprar item?)
+case (Sim)
+    :Análise de saldo;
+case (Não)
+    :Compra cancelada;
+    :Usúario é redirecionado para a loja;
+end
+endswitch
+
+switch (Se o saldo for)
+case (Suficiente)
+    :Compra realizada com sucesso;
+    
+case (Insuficiente)
+    :Impossível realizar a compra;
+
+endswitch
+
+:Usúario é redirecionado para a loja;
+
+stop
+@enduml
