@@ -1,0 +1,17 @@
+@startuml caderno
+start
+:Clicar na aba caderno;
+:Clicar no botão criar questão;
+:Selecionar caixa de texto;
+:Escrever questão;
+:Escrever respostas erradas e certa;
+:Pop-up de confirmação;
+if (Deseja salvar questão no caderno?) then (Sim)
+    :Encerra sessão;
+    :Redirecionar para a tela de caderno;
+    end
+else (Não)
+    :Fechar pop-up;
+    :Permanecer na tela;
+    end
+@enduml
