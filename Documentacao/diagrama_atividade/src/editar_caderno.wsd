@@ -1,0 +1,25 @@
+@startuml
+start
+
+:Acessar o inicio;
+:Clicar no Ìcone "Caderno";
+:Sistema carrega o caderno;
+:Selecionar edição do caderno;
+:Sistema exibe as possíveis edições;
+:Alterar os erros;
+:Sistema salva as alterações;
+if (Deseja continuar editando?) then (Sim)
+  :Usuário seleciona outra edição;
+  :Sistema exibe as possívies ediçãoes;
+   else (Não)
+    :Clicar em salvar edições;
+    :Sistema salva as alterações;
+ 
+endif
+
+:Usuário fecha o caderno;
+:Sistema salva e fecha o caderno;
+
+stop
+@enduml
+
