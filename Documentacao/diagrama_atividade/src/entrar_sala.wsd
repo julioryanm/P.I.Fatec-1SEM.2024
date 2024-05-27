@@ -1,0 +1,11 @@
+@startuml entrar_sala
+start
+:Acessar menu jogar;
+if (Tem código?) then (Sim)
+:Inserir código;
+else (Não)
+:Buscar sala;
+endif
+:Entra na sala;
+stop
+@enduml
