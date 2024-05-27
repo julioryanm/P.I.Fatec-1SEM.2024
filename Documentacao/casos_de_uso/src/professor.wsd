@@ -1,0 +1,17 @@
+@startuml Logged User Actions 0
+scale 1
+left to right direction
+:Professor: as User
+User --> (Registrar-se)
+User --> (Confirmar identidade)
+User --> (Login)
+User --> (Login externo)
+User --> (Logout)
+User --> (Encerrar Conta)
+User --> (Criar "cadernos")
+User --> (Editar "cadernos")
+User --> (Criar sala pública)
+User --> (Criar sala privada)
+User --> (Visualizar relatórios)
+User --> (Visualizar progressos)
+@enduml
