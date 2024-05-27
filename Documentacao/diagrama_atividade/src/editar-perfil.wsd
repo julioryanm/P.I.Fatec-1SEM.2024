@@ -1,0 +1,13 @@
+@startuml
+:Selecionar Perfil;
+:Clicar em Editar;
+:Selecionar campos a serem editados;
+:Clicar em Concluir;
+if (Deseja manter as alterações?) then (Sim)
+  :Mudar Perfil;
+  :Fechar Edição;
+else (Não)
+  :Excluir Alterações;
+  :Fechar Edição;
+endif
+@enduml

@@ -1,0 +1,8 @@
+@startuml visualizar_progresso
+start
+:Acessar perfil;
+:Acessar menu progresso;
+:Escolher usuário;
+:Visualizar progresso;
+stop
+@enduml

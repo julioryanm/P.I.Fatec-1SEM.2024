@@ -1,0 +1,11 @@
+@startuml
+|Usuário|
+:Selecionar resposta no tempo limite;
+
+if (Resposta selecionada a tempo?) then (Sim)
+  :Confirmar seleção;
+else (Não)
+  :Resposta fica em branco;
+endif
+
+@enduml
