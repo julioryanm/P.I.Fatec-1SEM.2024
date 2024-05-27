@@ -1,0 +1,15 @@
+@startuml excluir
+start
+:Clicar na aba caderno;
+:Clicar na questão;
+:Selecionar excluir questão;
+:Pop-up de confirmação;
+if (Deseja realmente excluir essa questão?) then (Sim)
+    :Excluir questão;
+    :Redirecionar para a tela de caderno;
+    end
+else (Não)
+    :Fechar pop-up;
+    :Permanecer na tela;
+    end
+@enduml
