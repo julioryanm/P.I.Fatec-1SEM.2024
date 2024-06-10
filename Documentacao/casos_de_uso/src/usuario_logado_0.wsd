@@ -12,5 +12,6 @@ User --> (Editar "cadernos")
 User --> (Criar sala pública)
 User --> (Criar sala privada)
 User --> (Entrar em sala)
+User --> (Visualizar salas)
 User --> (Sair da sala)
 @enduml
