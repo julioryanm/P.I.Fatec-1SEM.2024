@@ -1,0 +1,9 @@
+@startuml Logged User Actions 1
+scale 1
+left to right direction
+:Usuário (convidado): as User
+User --> (Entrar em jogo via codigo)
+User --> (Responde perguntas)
+User --> (Sai do jogo)
+
+@enduml

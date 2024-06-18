@@ -1,0 +1,7 @@
+@startuml visualizar_jogos
+start
+:Acessar menu jogar;
+:Clicar em buscar;
+:Visualizar jogos iniciando;
+stop
+@enduml

@@ -4,7 +4,8 @@ left to right direction
 :Usuário (logado): as User
 User --> (Registrar-se)
 User --> (Login)
-User --> (Login externo)
+User --> (Login Google)
+User --> (Login Facebook)
 User --> (Logout)
 User --> (Encerrar Conta)
 User --> (Criar "cadernos")
@@ -12,5 +13,6 @@ User --> (Editar "cadernos")
 User --> (Criar sala pública)
 User --> (Criar sala privada)
 User --> (Entrar em sala)
+User --> (Visualizar salas)
 User --> (Sair da sala)
 @enduml

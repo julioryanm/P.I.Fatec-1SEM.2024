@@ -1,0 +1,7 @@
+@startuml
+start
+:Clicar no ícone loja;
+:Abre loja para visualização;
+:Clicar no ícone voltar (seta) para sair;
+stop
+@enduml

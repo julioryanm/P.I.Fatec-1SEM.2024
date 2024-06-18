@@ -1,0 +1,26 @@
+@startuml
+:Criação de pergunta;
+start
+:Acessar o Inicio;
+:Clicar no Ícone "caderno";
+:Selecionar criação de perguntas;
+:Selecionar a categoria da pergunta;
+:Escrever a pergunta;
+:Escrever a resposta da Pergunta;
+:Colocar a valor de pontos da pergunta;
+:Colocar o Tempo da pergunta;
+if (Está tudo certo?) then (Sim)
+:Finalizar a crição da pergunta;
+else (Não)
+:Achar o Erro;
+:Modificar a questão por completo;
+
+endif
+:Sistema cria a pergunta;
+stop
+  
+
+
+
+@enduml
+
